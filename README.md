@@ -50,14 +50,20 @@ Play arcade games, climb the leaderboard, and win MON prizes!</p>
 <h2>📂 Project Structure</h2>
 <pre>
 monad-minigames-tournament/
-├── contracts/         # Solidity smart contract
-├── dapp/              # Frontend (HTML/CSS/JS)
-│   ├── games/         # Mini-games
-│   ├── index.html     # Main page with leaderboard
-│   ├── styles.css     # Meme-neon styling
-│   └── app.js         # Web3 logic: wallet, scoring, leaderboard
-└── README.md          # This documentation
+├── contracts/
+│   └── Tournament.sol        # Solidity smart contract
+├── dapp/
+│   ├── games/
+│   │   └── sample-game/
+│   │       ├── index.html   # Sample mini-game
+│   │       └── game.js
+│   ├── index.html            # Main page with leaderboard
+│   ├── styles.css            # Meme-neon styling
+│   └── app.js                # Web3 logic: wallet, scoring, leaderboard
+├── README.md                 # Project documentation
+└── package.json              # Node dependencies
 </pre>
+
 
 <hr>
 
