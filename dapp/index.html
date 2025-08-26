@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monad MiniGames Tournament</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>🎮 Monad MiniGames Tournament</h1>
+        <button id="connectWallet">Connect Wallet</button>
+    </header>
+
+    <section id="leaderboard">
+        <h2>Leaderboard</h2>
+        <table>
+            <thead>
+                <tr><th>Player</th><th>Score</th></tr>
+            </thead>
+            <tbody id="leaderboardBody"></tbody>
+        </table>
+    </section>
+
+    <section id="games">
+        <h2>Games</h2>
+        <iframe src="games/sample-game/index.html" width="600" height="400"></iframe>
+    </section>
+</body>
+</html>
