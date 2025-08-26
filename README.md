@@ -1,4 +1,11 @@
 <h1>🎮 Monad MiniGames Tournament</h1>
+<!-- Early-stage / Skeleton Notice -->
+<p style="color: orange; font-weight: bold; font-size: 1.1em; text-align: center;">
+⚠️ This repository contains the <strong>early-stage skeleton / prototype</strong> of the Monad MiniGames Tournament. 
+Most features are conceptual or in demo state. The project is a <strong>work in progress</strong>.
+</p>
+
+<hr>
 
 <p>
   <a href="https://gmonad.store/">
