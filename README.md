@@ -77,8 +77,8 @@ monad-minigames-tournament/
 <h2>⚡ Setup & Run</h2>
 
 <pre>
-git clone https://github.com/MaksCoin/Monad-MiniGames-Tournament-.git
-cd Monad-MiniGames-Tournament-
+git clone https://github.com/MaksCoin/Monad-MiniGames-Tournament.git
+cd Monad-MiniGames-Tournament
 </pre>
 
 <h3>Smart Contracts</h3>
